@@ -95,7 +95,7 @@ function actualizarEstado(){
     if(encendido){
         alert("La calculadora esta Encendida. ¡Puedes Usarla!")
     } else {
-        alert("La calculadora esta Apagada. Enciendela para usarla.")
+        //alert("La calculadora esta Apagada. Enciendela para usarla.")
     }
 }
 
