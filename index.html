@@ -32,11 +32,11 @@
         <h1>Calculadora</h1>
 
         <label>
-            <input type="radio" name="opOnOff" value="encender"> Encendido
+            <input type="radio" name="opOnOff" value="encender" id="encendido"> Encendido
         </label>
 
         <label>
-            <input type="radio" name="opOnOff" value="apagar" checked> Apagado
+            <input type="radio" name="opOnOff" value="apagar" id="apagado" checked> Apagado
         </label>
 
         <label for="numero1">Numero 1:</label>
@@ -53,10 +53,11 @@
             <option value="dividir">Dividir</option>
         </select>
 
-        <button onclick="operaciones()">Calcular</button>
+        <button onclick="operacionCalculadora()">Calcular</button>
 
-        <p>El resultado es: <span id="resultado"></span></p>
+        <p>El resultado es: <span id="resultadoCal"></span></p>
 
     </div>
+    <script src="funcionamiento-calculadora.js"></script>
 </body>
 </html>
