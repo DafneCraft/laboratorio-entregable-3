@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Operacion de Ejemplo</h1>
+        <p>Se eligen 2 numeros, por ejemplo 6 y 5</p>
+        <label >
+            <input type="radio" name="ejemploOperacion" value="sumar"> Sumar
+        </label>
+
+        <label >
+            <input type="radio" name="ejemploOperacion" value="restar"> Restar
+        </label>
+
+        <label >
+            <input type="radio" name="ejemploOperacion" value="multiplicar"> Multiplicar
+        </label>
+
+        <label >
+            <input type="radio" name="ejemploOperacion" value="dividir"> Dividir
+        </label>
+
+        <p>El resultado es: <span id="ejemploResultado"></span></p>
+
+    </div>
+    <div>
+        <h1>Calculadora</h1>
+
+        <label>
+            <input type="radio" name="opOnOff" value="encender"> Encendido
+        </label>
+
+        <label>
+            <input type="radio" name="opOnOff" value="apagar" checked> Apagado
+        </label>
+
+        <label for="numero1">Numero 1:</label>
+        <input type="number" id="numero1" placeholder="Ingresa el primer numero">
+
+        <label for="numero2">Numero 2:</label>
+        <input type="number" id="numero2" placeholder="Ingresa el segundo numero">
+
+        <label for="opciones">Selecciona una opcion:</label>
+        <select id="opciones">
+            <option value="sumar">Sumar</option>
+            <option value="restar">Restar</option>
+            <option value="multiplicar">Multiplicar</option>
+            <option value="dividir">Dividir</option>
+        </select>
+
+        <button onclick="operaciones()">Calcular</button>
+
+        <p>El resultado es: <span id="resultado"></span></p>
+
+    </div>
+</body>
+</html>
